@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quick_submit/static/css/main.ae014d30.css",
+    "main.js": "/quick_submit/static/js/main.231bc835.js",
+    "index.html": "/quick_submit/index.html",
+    "main.ae014d30.css.map": "/quick_submit/static/css/main.ae014d30.css.map",
+    "main.231bc835.js.map": "/quick_submit/static/js/main.231bc835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae014d30.css",
+    "static/js/main.231bc835.js"
+  ]
+}
