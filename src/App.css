@@ -1,0 +1,158 @@
+ .grey-background {
+            background-color: #f0f0f0; /* Greyish background color */
+            padding: 20px; /* Optional padding for better visual appearance */
+          }
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #666;
+}
+.ticket-card {
+  max-width: 400px; /* Limiting the size of the ticket card */
+            border-radius: 8px;
+            background-color: #fff; /* White background color */
+            margin-bottom: 10px;
+}
+
+.ticket-header {
+  display: flex;
+  align-items: center;
+}
+.box {
+            border: 1px solid #f0f0f0; /* Greyish border */
+            padding: auto;
+            display: inline-flex;
+            align-items: center;
+            background-color: #fff; /* White background color */
+          }
+.tick-box {
+  /* margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  cursor: pointer; */
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.circle-mark {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #605454;
+            margin-right: 10px;
+          }
+          .box {
+            border: 1px solid #333;
+            padding: 5px;
+            height: 9px;
+            display: inline-flex;
+            align-items: center;
+          }
+.grey-text {
+            color: #888; /* Grey color for the text */
+          }
+          
+.filter-container {
+            margin-bottom: 10px;
+          }
+
+          /* ... (previous styles) */
+
+          .filter-button {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            /* padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px; */
+            height: 30px;
+            width: 70px;
+            padding: 0 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          }
+
+          .filter-button span {
+            margin-right: 5px;
+          }
+.priority-icon {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  margin-right: 8px; /* Adjust the margin as needed */
+}
+.status-icon {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+          .filter-icon {
+            font-size: 20px;
+          }
+
+          .filter-dropdown {
+             /* max-height: 150px;  */
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            position: absolute;
+            top: 50px;
+            /* right: 10px; */
+            z-index: 1;
+          }
+
+          .dropdown-item {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+          }
+
+          .dropdown-item strong {
+            display: block;
+            margin-bottom: 5px;
+          }
+
+          .dropdown-item ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+
+          .dropdown-item li {
+            cursor: pointer;
+            padding: 5px;
+          }
+
+          .dropdown-item li:hover {
+            background-color: #f0f0f0;
+          }
+.ticket-columns {
+            display: flex;
+            flex-wrap: wrap;
+          }
+
+          .group-column {
+             flex: 1; 
+            margin-right: 20px;
+          }
